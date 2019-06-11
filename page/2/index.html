@@ -209,32 +209,79 @@
   <header>
   <div class="title">
     
-        <h2><a href="/blog/hugoisforlovers/">Getting Started with Hugo</a></h2>
+        <h2><a href="/post/2015-01-01-lorem-ipsum/">Lorem Ipsum</a></h2>
     
     
 </div>
   <div class="meta">
-    <time class="published" datetime="2014-04-02 00:00:00 &#43;0000 UTC">
-      April 2, 2014
+    <time class="published" datetime="2015-01-01 13:09:13 -0600 -0600">
+      January 1, 2015
     </time>
-    <span class="author">Hugo author</span>
+    <span class="author"></span>
     
-        <p>2 minute read</p>
+        <p>1 minute read</p>
     
   </div>
 </header>
 
   
-<a href="/blog/hugoisforlovers/" class="image featured">
-  <img src="/img/2014/04/pic01.jpg" alt="Pic 1">
+
+  
+  <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <footer>
+    <a href="/post/2015-01-01-lorem-ipsum/" class="button big">Read more</a>
+    <ul class="stats">
+  
+    <li class="categories">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+  
+    <li class="tags">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+</ul>
+
+  </footer>
+</article>
+
+        
+          <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/blog/creating-a-new-theme/">Creating a New Theme</a></h2>
+    
+    
+        <p>Learn how to create a theme on Hugo</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2014-09-28 00:00:00 &#43;0000 UTC">
+      September 28, 2014
+    </time>
+    <span class="author">Theme author</span>
+    
+        <p>35 minute read</p>
+    
+  </div>
+</header>
+
+  
+<a href="/blog/creating-a-new-theme/" class="image featured">
+  <img src="/img/2014/09/pic03.jpg" alt="Pic 3">
 </a>
 
 
   
-  <p>Go to <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
+  <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
   <footer>
-    <a href="/blog/hugoisforlovers/" class="button big">Read more</a>
+    <a href="/blog/creating-a-new-theme/" class="button big">Read more</a>
     <ul class="stats">
   
     
@@ -266,28 +313,36 @@ appropriate version for your os and architecture.</p>
   <header>
   <div class="title">
     
-        <h2><a href="/blog/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></h2>
+        <h2><a href="/blog/goisforlovers/">(Hu)go Template Primer</a></h2>
     
     
 </div>
   <div class="meta">
-    <time class="published" datetime="2014-03-10 00:00:00 &#43;0000 UTC">
-      March 10, 2014
+    <time class="published" datetime="2014-04-02 00:00:00 &#43;0000 UTC">
+      April 2, 2014
     </time>
-    <span class="author">Migrating author</span>
+    <span class="author">Unknown Author</span>
     
-        <p>4 minute read</p>
+        <p>7 minute read</p>
     
   </div>
 </header>
 
   
+<a href="/blog/goisforlovers/" class="image featured">
+  <img src="/img/2014/04/pic02.jpg" alt="Pic 2">
+</a>
+
 
   
-  <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p>
+  <p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.</p>
   <footer>
-    <a href="/blog/migrate-from-jekyll/" class="button big">Read more</a>
+    <a href="/blog/goisforlovers/" class="button big">Read more</a>
     <ul class="stats">
   
     
@@ -296,10 +351,7 @@ With Jekyll, something that looked like</p>
         <ul>
           
             
-            <li><a class="article-category-link" href="/categories/hugo">Hugo</a></li>
-          
-            
-            <li><a class="article-category-link" href="/categories/jekyll">Jekyll</a></li>
+            <li><a class="article-category-link" href="/categories/go">Go</a></li>
           
         </ul>
       </li>
@@ -324,7 +376,7 @@ With Jekyll, something that looked like</p>
     <a href="/" class="button big previous"><i class="fas fa-angle-left"></i></a>
   
   
-    <a href="#" class="disabled button big next"><i class="fas fa-angle-right"></i></a>
+    <a href="/page/3/" class="button big next"><i class="fas fa-angle-right"></i></a>
   
 </div>
 
@@ -349,45 +401,11 @@ With Jekyll, something that looked like</p>
     <article class="mini-post">
       <section>
         
-<a href="/blog/creating-a-new-theme/" class="image featured">
-  <img src="/img/2014/09/pic03.jpg" alt="Pic 3">
-</a>
-
 
       </section>
       <header>
-        <h1><a href="/blog/creating-a-new-theme/">Creating a New Theme</a></h1>
-        <time class="published" datetime="">September 28, 2014</time>
-      </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/goisforlovers/" class="image featured">
-  <img src="/img/2014/04/pic02.jpg" alt="Pic 2">
-</a>
-
-
-      </section>
-      <header>
-        <h1><a href="/blog/goisforlovers/">(Hu)go Template Primer</a></h1>
-        <time class="published" datetime="">April 2, 2014</time>
-      </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/hugoisforlovers/" class="image featured">
-  <img src="/img/2014/04/pic01.jpg" alt="Pic 1">
-</a>
-
-
-      </section>
-      <header>
-        <h1><a href="/blog/hugoisforlovers/">Getting Started with Hugo</a></h1>
-        <time class="published" datetime="">April 2, 2014</time>
+        <h1><a href="/post/2016-12-30-hello-markdown/">A Plain Markdown Post</a></h1>
+        <time class="published" datetime="">December 30, 2016</time>
       </header>
     </article>
     
@@ -397,8 +415,30 @@ With Jekyll, something that looked like</p>
 
       </section>
       <header>
-        <h1><a href="/blog/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></h1>
-        <time class="published" datetime="">March 10, 2014</time>
+        <h1><a href="/post/">Post</a></h1>
+        <time class="published" datetime="">December 30, 2016</time>
+      </header>
+    </article>
+    
+    <article class="mini-post">
+      <section>
+        
+
+      </section>
+      <header>
+        <h1><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h1>
+        <time class="published" datetime="">July 23, 2015</time>
+      </header>
+    </article>
+    
+    <article class="mini-post">
+      <section>
+        
+
+      </section>
+      <header>
+        <h1><a href="/post/2015-01-01-lorem-ipsum/">Lorem Ipsum</a></h1>
+        <time class="published" datetime="">January 1, 2015</time>
       </header>
     </article>
     
@@ -425,6 +465,11 @@ With Jekyll, something that looked like</p>
           
           <li>
             
+              <a href="/categories/r/">r<span class="count">2</span></a>
+            
+          
+          <li>
+            
               <a href="/categories/go/">go<span class="count">1</span></a>
             
           
@@ -436,11 +481,6 @@ With Jekyll, something that looked like</p>
           <li>
             
               <a href="/categories/markdown/">markdown<span class="count">1</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/r/">r<span class="count">1</span></a>
             
           
           </li>
